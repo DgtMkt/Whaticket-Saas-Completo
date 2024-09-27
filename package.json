@@ -1,23 +1,12 @@
 {
   "name": "whaticket",
   "version": "1.0.0",
-  "description": "Whaticket SaaS Platform",
+  "description": "Projeto de gerenciamento do Whaticket",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "npm run build"
+    "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "socket.io": "^4.0.0",
-    "pm2": "^5.1.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  },
-  "author": "Digitalis Marketing",
-  "license": "ISC"
+    "express": "^4.17.1"
+  }
 }
